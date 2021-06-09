@@ -42,7 +42,10 @@ const tags =
             'exatas', 'humanas', 'biologicas', 'tecnologia', 'historia', 'geografia', 'engenharia', 'letras',
             'portugues','matematica', 'ciencias', 'educacao fisica', 'fisica','artes', 'quimica',
             'ingles', 'espanhol', 'frances','alemao','mandarim', 'italiano', 'linguas extrangeiras' , 
-            'area da saude', 'educacao musical', 'educacao financeira', 'etiqueta', ''
+            'tecnico', 'tecnologo', 'minicurso', 'diploma', 'cursos online', 'maratona educacional', 'olimpiada educacional',
+            'area da saude', 'educacao musical', 'educacao financeira', 'etiqueta', 'diretor', 'coordenador',
+            'supervisor', 'pesquisa', 'academico', 'extensão', 'gestao escolar', 'pedagogo empresarial',
+            
         ],
         food:[
             'comida japonesa', 'comida indiana', 'comida brasileira','comida chinesa', 'comida mexicana', 
@@ -115,4 +118,4 @@ const tags =
     }
 
 
-console.log(tags.geek.length)
+console.log(tags.education.length)
