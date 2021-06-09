@@ -3,14 +3,15 @@
 const tags = 
     {
         bussines: [
-            'business', 'empreendorismo' , 'marketing', 'sucesso', 'marketing digital', 'loja fisica', 'negocios online',
-            'pequeno negocio', 'mulheres de negocio', 'pequena empresa', 'grande empresa', 'negocios inteligentes',
-            'instagram para negocios', 'negocios imobiliarios', 'gestao de negocios', 'agronegocios', 'negocios locais',
-            'negocios internacionais', 'negocios sustentaveis', 'desenvolvendo pessoas', 'coach de negocios', 'desenvolvimento de negocios',
-            'negócios pet', 'midias sociais para negocios', 'negócios milionarios', 'midias digitais para negocios', 'negócio em casa' , 'micronegocios',
-            'empreender','motivacao','lideranca','dinheiro','foco','carreira','crescimento','vendas','networking','altaperformance',
-            'mindset', 'lifestyle','oportunidade', 'empreendedorismo transforma', 'economia', 'trader', 'formado', 'bolsa de valores',
-            'investimentos', 'cripto moeda', 'bit coin', 'diplomata'
+            'administracao', 'logistica', 'marketing', 'educacao', 'agronomia','engenharia civil',
+            'engenharia eletrica','engenharia de materiais','engenharia de producao', 
+            'engenharia mecanica',  'biomedicina',
+            'medicina veterinaria', 'educador', 'enfermagem', 'fisioterapia', 'farmacia', 'fonoaudiologia',
+            'odontologia', 'psicologia', 'astronomia', 'computacao', 'estatisca', 'fisica', 'geologia','matematica',
+            'meteorologia', 'oceanografia', 'quimica', 'filosofia', 'teologia', 'arquitetura e urbanismo',
+            'ciencias contabeis', 'direito', 'jornalismo', 'publicidade e propaganda', 'radio e tv',
+            'relacoes internacionais', 'turismo', 'artes cenicas', 'cinema','danca', 'design', 'letras',
+            'moda', 'musica', 'traducao', 'ingles', 'nutricao', 'biomedicina', 'eletrica'
         ],
         photograph: [
             'casamento','festa','formatura','eventos','praia','modelo','natureza','viagem','canon',
@@ -44,27 +45,74 @@ const tags =
             'area da saude', 'educacao musical', 'educacao financeira', 'etiqueta', ''
         ],
         food:[
+            'comida japonesa', 'comida indiana', 'comida brasileira','comida chinesa', 'comida mexicana', 
+            'comida alema', 'comida americana', 'comida espanhola', 'comida tailandesa', 'comida candense',
+            'comida italiana', 'comida francesa', 'comida portuguesa', 'comida mineira', 'comida nordestina',
+            'restaurante', 'rodizio', 'comida vegana', 'comida vegetariana', 'comida natural', 'salada',
+            'cafe', 'suco', 'sorvete', 'feira', 'vitamina','smooth', 'acai', 'agua', 'refrigerante', 'cerveja',
+            'chopp', 'vinho', 'uisque', 'vodka','bacardi', 'licor', 'caipirinha', 'pinga', 'absinto', 'tequila',
+            'frutas', 'verduras', 'pao', 'bolacha', 'biscoito', 'carnes', 'queijo', 'doces', 'salgados'
 
         ],
         trip:[
-
+            'agencia', 'hotel', 'pousada', 'passagem', 'carona', 'pontos turisticos', 'ferias', 'natureza',
+            'praia', 'hotel fazenda', 'parque tematico', 'parque aquatico', 'america latina', 'america central',
+            'america do norte', 'europa', 'africa', 'oceania', 'turismo brasil', 'disney', 'acampamento',
+            'airbnb', 'hostel', 'pesca', 'cruzeiro', 'radical', 'paz interior',
+            'passaporte', 'safari', 'turismo historico', 'turismo estados unidos', 'turismo inglaterra', 
+            'turismo japao', 'turismo australia', 'turismo italia', 'turismo alemanha', 'turismo espanha', 
+            'turismo portugal', 'turismo chernobil', 'turismo india', 'turismo russia', 'turismo argentina',
+            'turismo holanda', 'turismo egito', 'turismo africa do sul', 'turismo china', 'turismo tailandia',
+            'trem', 'onibus', 'aviao'
         ],
         events:[
-
+            'balada', 'festa', 'festival musical', 'exposicao', 'encontros', 'passeata', 'manifestacoes',
+            'carnaval', 'halloween', 'natal', 'pascoa', 'eventos corporativos', 'casamentos', 
+            'aniversarios', 'happy hour', 'churrascos', 'formaturas', 'feira', 'conferencia',
+            'encontros networking', 'treinamento', 'eventos religiosos', 'eventos beneficentes',
+            'simposio', 'palestra', 'seminario', 'curso', 'workshop', 'congresso', 'webinar',
+            'exposicao artistica', 'sarau', 'corrida', 'maratona', 'campeonato', 'jogos', 'bazar',
+            'caca ao tesouro', 'cabare', 'comemoracao', 'comicio', 'confex', 'coquetel', 'debate',
+            'desfile de moda', 'encontro fandom', 'entrevista', 'feira gastronomica', 'flash mob',
+            'forum'
         ],
-        health:[
-
+        games:[
+            'sony playstation','nintendo',  'microsoft' ,'xbox', 'level up',
+            'acao', 'moba', 'estrategia', 'rpg', 'esporte', 'corrida', 'mmorpg', 'simulacao', 'rts',
+            'luta','stealth',
+            'battle royale', 'aventura', 'pc', 'pc gamer', 'nvidea', 'cadeira gamer', 'teclado gamer', 'mouse gamer',
+            'mousepad gamer', 'monitor', 'steam', 'origin', 'epic games', 'counter strike', 'fortnite', 'minecraft',
+            'pubg', 'league of legends', 'dota 2', 'pokemon go', 'free fire', 'roblox', 'subway surfers',
+            'battlefield', 'call of duty', 'worldl of tanks', 'dungeon fighter online', 'among us', 'runescape',
+            'apex legends', 'hearthstone', 'overwatch', 'valorant' , 'rainbow six'
         ],
         fashion:[
-
+            
         ],
         artist:[
-
+            'visuais', 'literarias', 'perfomaticas', 'musica', 'artes cenicas', 'pintura',
+            'escultura', 'arquitetura', 'literatura', 'cinema', 'fotografia', 'historia em quadrinhos',
+            'mangaka', 'design de jogos', 'concept art', 'modelagem 3D', 'coreografo', 'danca',
+            'atuacao', 'cordel', 'desenhista', 'ilustrador', 'quadros', 'museu', 'comedia', 'drama',
+            'terror', 'arte pre historica', 'arte na antiguidade', 'arte medieval', 'arte renascentista',
+            'arte contemporanea', 'arte moderna', 'arte pos moderna', 'arte brasileira', 'arte internacional',
+            'tecnicas de pintura', 'tecnicas de traco', 'curso de artes', 'arte grega', 'arte egipcia', 'arte romana',
+            'arte bizantina', 'arte romanica', 'surrealismo', 'arte gotica', 'neoclassicismo',
+            'romantismo', 'modernismo', 'arte indigena'
         ],
         geek:[
-
+            'loja geek', 'comic con', 'evento de anime','anime', 'cosplay', 'rpg de mesa', 'D&D',
+            'batalha campal', 'harry potter', 'filmes', 'series', 'colecoes', 'livros geek', 'tokusatsu',
+            'hq', 'manga', 'gameboard', 'trade card games', 'yu gi oh', 'pokemon', 'magic the gathering',
+            'herois', 'action figure', 'steam punk', 'e esports', 'star trek' , 'avengers',
+            'cubo magico', 'video game', 'posters geek', 'camisas geek', 'moletom geek', 'replicas geek', 
+            'star wars', 'senhor dos aneis', 'game of thrones', 'guardioes da galaxia', 'the big bang theory',
+            'doctor who', 'mr robot', 'blade runner', 'matrix', 'de volta para o futuro', 'indiana jones',
+            'black mirror', 'stranger things', 'a origem',
+            'bonecos pop', 'colares geek', 'nerd'
+            
         ]
     }
 
 
-console.log(tags.education.length)
+console.log(tags.geek.length)
