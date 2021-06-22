@@ -1,15 +1,17 @@
 const Usuarios = 
-{
-    usuario1:{
+[
+    {
         nome: "davi",
         email: "davialgo@",
-        tags: ["musica", "nintendo","educacao"],
+        tags: ["musica", "nintendo","administracao"],
         state: "SP",
         religiosity: "Ateu",
         politic: "Centro",
         seguidores: 300
-    },
-    usuario2:{
+
+        },
+        
+    {
         nome: "matheus",
         email: "matheus@",
         tags: ["sony", "playstation","rpg"],
@@ -18,7 +20,7 @@ const Usuarios =
         politic: "Esquerda",
         seguidores: 1200
     },
-    usuario3:{
+    {
         nome: "maria",
         email: "maria@",
         tags: ["balada", "festa","musica"],
@@ -27,7 +29,7 @@ const Usuarios =
         politic: "Liberal",
         seguidores: 15000
     },
-    usuario4:{
+    {
         nome: "ana",
         email: "ana@",
         tags: ["chopp", "vinho","uisque"],
@@ -36,7 +38,7 @@ const Usuarios =
         politic: "Anarquista",
         seguidores: 12
     },
-    usuario5:{
+    {
         nome: "robson",
         email: "robson@",
         tags: ["pesquisa", "educacao financeira","pedagogo"],
@@ -44,7 +46,7 @@ const Usuarios =
         religiosity: "Espiritismo",
         politic: "Sem preferencia politica",
         seguidores: 1000000
-    },
-}
+    }
+]
 
 module.exports = Usuarios
