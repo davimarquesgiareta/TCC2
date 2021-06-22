@@ -1,6 +1,6 @@
 //compile CONTROL + ALT + N
 
-const tags = 
+const Tags = 
     {
         bussines: [
             'administracao', 'logistica', 'marketing', 'educacao', 'agronomia','engenharia civil',
@@ -117,5 +117,4 @@ const tags =
         ]
     }
 
-
-console.log(tags.education.length)
+    module.exports = Tags
