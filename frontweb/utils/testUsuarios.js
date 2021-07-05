@@ -23,7 +23,7 @@ const Usuarios =
     {
         nome: "maria",
         email: "maria@",
-        tags: ["balada", "festa","musica"],
+        tags: ["balada", "festa","musica","bisc"],
         state: "AM",
         religiosity: "Budismo",
         politic: "Liberal",
