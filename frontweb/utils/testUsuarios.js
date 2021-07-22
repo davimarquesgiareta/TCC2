@@ -7,8 +7,7 @@ const Usuarios =
         state: "SP",
         religiosity: "Ateu",
         politic: "Centro",
-        seguidores: 300
-
+        followers: 3000
         },
         
     {
@@ -18,7 +17,7 @@ const Usuarios =
         state: "MG",
         religiosity: "Judaismo",
         politic: "Esquerda",
-        seguidores: 1200
+        followers: 1200
     },
     {
         nome: "maria",
@@ -27,7 +26,7 @@ const Usuarios =
         state: "AM",
         religiosity: "Budismo",
         politic: "Liberal",
-        seguidores: 15000
+        followers: 15000
     },
     {
         nome: "ana",
@@ -36,7 +35,7 @@ const Usuarios =
         state: "RS",
         religiosity: "Ateu",
         politic: "Anarquista",
-        seguidores: 12
+        followers: 12
     },
     {
         nome: "robson",
@@ -45,7 +44,7 @@ const Usuarios =
         state: "RJ",
         religiosity: "Espiritismo",
         politic: "Sem preferencia politica",
-        seguidores: 1000000
+        followers: 1000000
     }
 ]
 
